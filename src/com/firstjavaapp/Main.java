@@ -1,5 +1,9 @@
 package com.firstjavaapp;
 
+import java.util.Arrays;
+import java.util.Locale;
+import java.awt.*;
+
 //public class Main {
 //
 //    public static void main(String[] args) {
@@ -167,7 +171,7 @@ package com.firstjavaapp;
 //}
 
 
-//import java.util.Locale;
+//
 
 //============ Strings ==============
 //public class Main {
@@ -195,11 +199,30 @@ package com.firstjavaapp;
 
 
 
-////============ Variable naming ==============
+//////============ Refference Type Objects ==============
 //public class Main {
 //
 //    public static void main(String[] args) {
+//        int age = 12;
+//
+//        Point pointA = new Point(10, 10);
+//        System.out.println("pointA = " + pointA);
+//
+//        pointA.move(10, 12);
+//        System.out.println("pointA = " + pointA);
 //
 //    }
-//
 //}
+
+////============ Arrays ==============
+public class Main {
+    public static void main(String[] args) {
+       int[] numbers = new int[3];
+        numbers[0] = 33;
+        numbers[1] = 23;
+        numbers[2] = 13;
+
+        System.out.println(Arrays.toString(numbers));
+
+    }
+}
