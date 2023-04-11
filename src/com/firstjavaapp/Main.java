@@ -167,7 +167,7 @@ package com.firstjavaapp;
 //}
 
 
-import java.util.Locale;
+//import java.util.Locale;
 
 //============ Strings ==============
 //public class Main {
