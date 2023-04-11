@@ -157,11 +157,49 @@ package com.firstjavaapp;
 //}
 
 
-//============ Variable naming ==============
-public class Main {
+////============ Variable naming ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//    }
+//
+//}
 
-    public static void main(String[] args) {
 
-    }
+import java.util.Locale;
 
-}
+//============ Strings ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//        String name = "Mat";
+//        String code = "ome";
+//
+//        String brand = name + code;
+//
+//        System.out.println(brand.toUpperCase());
+//        System.out.println(brand.toLowerCase());
+//        System.out.println(brand.substring(0, 3));
+//        System.out.println("  ".isEmpty());
+//        System.out.println("  ".isBlank());
+//        System.out.println();
+//        System.out.println(" a ");
+//        System.out.println(" a ".trim());
+//
+//    }
+//
+//}
+
+
+
+
+////============ Variable naming ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//    }
+//
+//}
