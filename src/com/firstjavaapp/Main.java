@@ -1,5 +1,9 @@
 package com.firstjavaapp;
 
+import java.util.Arrays;
+import java.util.Locale;
+import java.awt.*;
+
 //public class Main {
 //
 //    public static void main(String[] args) {
@@ -167,7 +171,7 @@ package com.firstjavaapp;
 //}
 
 
-import java.util.Locale;
+//
 
 //============ Strings ==============
 //public class Main {
@@ -193,13 +197,116 @@ import java.util.Locale;
 //}
 
 
+//////============ Refference Type Objects ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        int age = 12;
+//
+//        Point pointA = new Point(10, 10);
+//        System.out.println("pointA = " + pointA);
+//
+//        pointA.move(10, 12);
+//        System.out.println("pointA = " + pointA);
+//
+//    }
+//}
+
+////============ Arrays ==============
+//public class Main {
+//    public static void main(String[] args) {
+//       int[] numbers = new int[3];
+//        numbers[0] = 33;
+//        numbers[1] = 23;
+//        numbers[2] = 13;
+//
+//        System.out.println(Arrays.toString(numbers));
+//
+//        System.out.println(numbers.length);
+//        System.out.println();
+//
+//        int[] numbers2 = {1, 3, 4, 5, 6};
+//
+//
+//
+//        System.out.println(Arrays.toString(numbers2));
+//        numbers2[1] = 2;
+//        System.out.println(Arrays.toString(numbers2));
+//
+//        System.out.println(numbers2.length);
+//
+//        System.out.println();
+//
+//        double[] numbers3 = {1, 3, 4, 5, 6};
+//        System.out.println(Arrays.toString(numbers3));
+//
+//        String[] names = {"Matome", "Ndivhuwo","Godfrey", "Tshilidzi", "Fortune", "Jack"};
+//        System.out.println(Arrays.toString(names));
+//
+//    }
+//}
+
+//////============ 0 and Null values for arrays ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//        // For Primitives
+//        int[] numbers = new int[3];
+//        Arrays.fill(numbers, 1);
+//        numbers[1] = 2;
+//
+//        System.out.println(Arrays.toString(numbers));
+//
+//        String[] names = new String[2];
+//        Arrays.fill(names, "none");
+//        names[0] = "Lonnie";
+////        names[1] = "Ben";
+//
+//        System.out.println(Arrays.toString(names));
+//
+//    }
+//}
 
 
-//============ Variable naming ==============
+// Loops and arrays
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//        String[] names = {
+//                "Nema",
+//                "Godfrey",
+//                "Ndivhuwo",
+//                "Tshilidzi",
+//                "Fortune"
+//        };
+//
+////        for (int i = 0; i < names.length; i++) {
+////            System.out.println(names[i]);
+////        }
+////
+////            System.out.println();
+//
+//        for (int i = 0; i < names.length; i++) {
+//            System.out.println(names[i]);
+//        }
+//
+////        System.out.println(names[1]);
+//
+//    }
+//}
+
+
+//////============ If Statements ==============
 public class Main {
 
     public static void main(String[] args) {
+        if (false) {
+            System.out.println("This code runs when the statements is true");
+        } else  {
+            System.out.println("This code runs when the statement is false");
+        }
 
     }
-
 }
