@@ -195,11 +195,11 @@ import java.util.Locale;
 
 
 
-////============ Variable naming ==============
-//public class Main {
-//
-//    public static void main(String[] args) {
-//
-//    }
-//
-//}
+//============ Variable naming ==============
+public class Main {
+
+    public static void main(String[] args) {
+
+    }
+
+}
