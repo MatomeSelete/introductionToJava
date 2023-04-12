@@ -298,15 +298,77 @@ import java.awt.*;
 //}
 
 
-//////============ If Statements ==============
+////////============ If Statements ==============
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        if (false) {
+//            System.out.println("This code runs when the statements is true");
+//        } else  {
+//            System.out.println("This code runs when the statement is false");
+//        }
+//
+//    }
+//}
+
+//////============ Packages ==============
+//public class Main {
+//    /*
+//    -access modifier
+//    -return type
+//    -method body
+//    -optional return value
+//     */
+//
+//    private static int add(int num1, int num2) {
+//        int result = num1 + num2;
+//        return result;
+//    }
+//
+//    public static void main(String[] args) {
+//        int result = add(10, 10);
+//        System.out.println(result);
+//
+//        int results = add(100, 109);
+//        System.out.println(results);
+//    }
+//}
+
+
+//public class Main {
+//
+//    private static float add(float monthlyRent, float propertyprice, int percent) {
+//        float results =  (monthlyRent / propertyprice * percent ); //
+//        return results;
+//    }
+//
+//   // private static float
+//
+//    public static  void main(String[] args) {
+//
+//        float results = add(15000, 250000, 100)  ;
+//        System.out.println(results);
+//
+//
+//        System.out.println("Rental yeild per year: " + results + "%");
+//
+//   }
+//}
+
 public class Main {
 
     public static void main(String[] args) {
-        if (false) {
-            System.out.println("This code runs when the statements is true");
-        } else  {
-            System.out.println("This code runs when the statement is false");
-        }
+        // classes
+        Cat cat = new Cat();
+        cat.meow();
 
     }
+
+    static class Cat  {
+        String name;
+        void meow() {
+            System.out.println(name + ": meow...");
+        }
+    }
+
 }
